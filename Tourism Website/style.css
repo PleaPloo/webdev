@@ -19,7 +19,8 @@ header nav h1,
 header nav a {
   color: white;
   text-align: center;
-  background: none;         
+  background: none;
+  text-shadow: 2px 2px 5px #232b14;         
 }
 
 header nav h1 {
@@ -28,9 +29,19 @@ header nav h1 {
 }
 
 header nav a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   font-size: clamp(1rem, 2vw, 1.5rem);
   text-decoration: none;
-  padding: 0.5em 1em;       
+  padding: 0.5em 1em;
+  transition: background 0.3s ease;
+  border-radius: 5px;
+}
+
+header nav a:hover {
+  background-color: #232b14;
+  border-radius: 5px;  
 }
 
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~ Font styles ~~~~~~~~~~~~~~~~~~~~~~~~~~*/
@@ -55,9 +66,33 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
+
+  margin: 0;              
+  height: 100vh;         
+  background-color: #f0f0f0; 
 }
 
 body, header {
   margin: 0;
   padding: 0;
+}
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~ Specific styles ~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+.centered {
+  font-size: clamp(2rem, 3vw, 5rem);
+  line-height: 0.5;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+  text-shadow: 0px 3px 10px #232b14;
+}
+
+.prevent-select {
+  -webkit-user-select: none; 
+  -ms-user-select: none; 
+  user-select: none; 
 }

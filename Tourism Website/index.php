@@ -20,5 +20,11 @@
 
   </header>
 
-  <body></body>
+  <body>
+    <div class="centered prevent-select">
+      <h1>Experience the beauty of</h1>
+      <h1>Brunei Darussalam</h1>
+    </div>
+  </body>
+
 </html>
