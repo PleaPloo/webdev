@@ -1,3 +1,5 @@
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~ Header styles ~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
 header nav {
   display: flex;
   flex-flow: row nowrap;
@@ -10,7 +12,7 @@ header nav {
   align-items: center;       
   justify-content: space-between;
   background-color: #535e3f; 
-  padding: 1% 8%;
+  padding: 0.3% 8%;
 }
 
 header nav h1, 
@@ -21,11 +23,41 @@ header nav a {
 }
 
 header nav h1 {
-  font-size: clamp(1.5rem, 3vw, 2rem);
+  font-size: clamp(1.5rem, 3vw, 2.5rem);
+  font-family: DM_Serif_Text ;
 }
 
 header nav a {
   font-size: clamp(1rem, 2vw, 1.5rem);
   text-decoration: none;
   padding: 0.5em 1em;       
+}
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~ Font styles ~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+.dm-serif-text-regular {
+  font-family: "DM Serif Text", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.dm-serif-text-regular-italic {
+  font-family: "DM Serif Text", serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~ Body styles ~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+body {
+  background-image: url(assets/pics/bg1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+body, header {
+  margin: 0;
+  padding: 0;
 }

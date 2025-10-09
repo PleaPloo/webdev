@@ -4,26 +4,21 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" type="text/css" href="style.css"></link>
-    <title>Tourism</title>
+
+    <!-- Custom Fonts (Google Fonts)-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&display=swap" rel="stylesheet">
+
+    <title>Discover Brunei</title>
   </head>
 
   <header>
     <div id="time" style="position: absolute; top: 10px; right: 10px; font-family: sans-serif;"></div>
 
-      <nav>
-        <h1 style="text-align: center">Discover Brunei</h1>
-        <a>Home</a>
-        <a>Places</a>
-        <a>Attractions</a>
-        <a>Culture</a>
-        <a>Food</a>
-        <a>Contact</a>
-        <a>Admin</a>
-      </nav>
+    <?php include 'nav.php'; ?>
 
   </header>
-
-
   
   <body></body>
 </html>
