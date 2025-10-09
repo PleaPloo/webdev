@@ -1,11 +1,31 @@
-nav {
+header nav {
   display: flex;
   flex-flow: row nowrap;
   align-items: center;
   justify-content: center;
 }
 
-nav a {
+header nav {
+  display: flex;
+  align-items: center;       
+  justify-content: space-between;
+  background-color: #535e3f; 
+  padding: 1% 8%;
+}
+
+header nav h1, 
+header nav a {
+  color: white;
   text-align: center;
-  padding: 10px 15px;
+  background: none;         
+}
+
+header nav h1 {
+  font-size: clamp(1.5rem, 3vw, 2rem);
+}
+
+header nav a {
+  font-size: clamp(1rem, 2vw, 1.5rem);
+  text-decoration: none;
+  padding: 0.5em 1em;       
 }
