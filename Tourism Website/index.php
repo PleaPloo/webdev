@@ -1,30 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" type="text/css" href="style.css"></link>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" type="text/css" href="style.css">
 
-    <!-- Custom Fonts (Google Fonts)-->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&display=swap" rel="stylesheet">
+  <!-- Custom Fonts (Google Fonts) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
 
-    <title>Discover Brunei</title>
-  </head>
+  <title>Discover Brunei</title>
+</head>
 
+<body>
+  
   <header>
     <div id="time" style="position: absolute; top: 10px; right: 10px; font-family: sans-serif;"></div>
-
     <?php include 'nav.php'; ?>
-
   </header>
 
-  <body>
+  <main>
+
     <div class="centered prevent-select">
       <h1>Experience the beauty of</h1>
       <h1>Brunei Darussalam</h1>
     </div>
-  </body>
+
+    <div class="centered">
+      <button>Explore Now</button>
+    </div>
+
+  </main>
+
+  <footer>
+    <h1>@2025 Discover Brunei</h1>
+  </footer>
+
+</body>
 
 </html>

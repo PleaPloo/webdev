@@ -4,13 +4,7 @@ header nav {
   display: flex;
   flex-flow: row nowrap;
   align-items: center;
-  justify-content: center;
-}
-
-header nav {
-  display: flex;
-  align-items: center;       
-  justify-content: space-between;
+  justify-content: center;      
   background-color: #535e3f; 
   padding: 0.3% 8%;
 }
@@ -44,20 +38,6 @@ header nav a:hover {
   border-radius: 5px;  
 }
 
-/*~~~~~~~~~~~~~~~~~~~~~~~~~~ Font styles ~~~~~~~~~~~~~~~~~~~~~~~~~~*/
-
-.dm-serif-text-regular {
-  font-family: "DM Serif Text", serif;
-  font-weight: 400;
-  font-style: normal;
-}
-
-.dm-serif-text-regular-italic {
-  font-family: "DM Serif Text", serif;
-  font-weight: 400;
-  font-style: italic;
-}
-
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~ Body styles ~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 
 body {
@@ -75,6 +55,12 @@ body {
 body, header {
   margin: 0;
   padding: 0;
+}
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~ Header styles ~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+footer h1{
+
 }
 
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~ Specific styles ~~~~~~~~~~~~~~~~~~~~~~~~~~*/
@@ -95,4 +81,18 @@ body, header {
   -webkit-user-select: none; 
   -ms-user-select: none; 
   user-select: none; 
+}
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~ Font styles ~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+.dm-serif-text-regular {
+  font-family: "DM Serif Text", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.dm-serif-text-regular-italic {
+  font-family: "DM Serif Text", serif;
+  font-weight: 400;
+  font-style: italic;
 }
