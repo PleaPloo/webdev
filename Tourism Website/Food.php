@@ -13,12 +13,39 @@
     <title>Discover Brunei</title>
   </head>
 
-  <header>
-    <div id="time" style="position: absolute; top: 10px; right: 10px; font-family: sans-serif;"></div>
+  <body>
 
-    <?php include 'nav.php'; ?>
+    <header>
+      <?php include 'nav.php'; ?>
+    </header>
 
-  </header>
+    <main>
+      
+      <section class="features">
 
-  <body></body>
+      <div class="feature-item" style="background-color: #5c6e3fff;">
+        <img src="assets/pics/placeholder.jpg" alt="Place 1">
+        <h3>Kampong Ayer</h3>
+        <p>Called the “Venice of the East,” this is a stilted settlement over the Brunei River, where people have lived for centuries.</p>
+        </div>
+
+        <div class="feature-item" style="background-color: #778b57ff;">
+        <img src="assets/pics/placeholder.jpg" alt="Place 1">
+        <h3>Ulu Temburong National Park</h3>
+        <p>Known as the “green jewel” of Brunei, this untouched rainforest allows hikes, canopy walks, and longboat river rides.</p>
+        </div>
+
+        <div class="feature-item">
+        <img src="assets/pics/placeholder.jpg" alt="Place 1">
+        <h3>Omar Ali Saifuddien Mosque</h3>
+        <p>This mosque is a national icon in Bandar Seri Begawan, with a golden dome and Italian marble, built in 1958. </p>
+        </div>
+
+    </main>
+
+  </body>
+  
+  <div class="footer">
+    <p>©2025 Discover Brunei</p>
+  </div>
 </html>

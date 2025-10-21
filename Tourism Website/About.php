@@ -13,12 +13,25 @@
     <title>Discover Brunei</title>
   </head>
 
-  <header>
-    <div id="time" style="position: absolute; top: 10px; right: 10px; font-family: sans-serif;"></div>
+  <body>
 
-    <?php include 'nav.php'; ?>
+    <header>
+      <?php include 'nav.php'; ?>
+    </header>
 
-  </header>
+    <main>
 
-  <body></body>
+      <section>
+        <div>
+          <h2></h2>
+        </div>
+
+    </main>
+
+      <div class="footer">
+        <p>©2025 Discover Brunei</p>
+      </div>
+
+  </body>
+
 </html>
