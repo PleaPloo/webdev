@@ -1,10 +1,12 @@
 <nav>
-  <h1 style="text-align: center">Discover Brunei</h1>
-    <a href="index.php">HOME</a>
-    <a href="Places.php">PLACES</a>
-    <a href="Attractions.php">ATTRACTIONS</a>
-    <a href="Culture.php">CULTURE</a>
-    <a href="Food.php">FOOD</a>
-    <a href="Contact.php">CONTACT</a>
-    <a href="Admin.php">ADMIN</a>
-</nav>
+    <h1>Discover Brunei</h1>
+    <ul>
+      <li><a href="index.php">HOME</a></li>
+      <li><a href="Places.php">PLACES</a></li>
+      <li><a href="Attractions.php">ATTRACTIONS</a></li>
+      <li><a href="Culture.php">CULTURE</a></li>
+      <li><a href="Food.php">FOOD</a></li>
+      <li><a href="Contact.php">CONTACT</a></li>
+      <li><a href="Admin.php">ADMIN</a></li>
+    </ul>
+  </nav>

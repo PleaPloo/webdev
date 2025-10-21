@@ -1,25 +1,49 @@
-/*~~~~~~~~~~~~~~~~~~~~~~~~~~ Header styles ~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~ Reset & Layout ~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  font-family: "DM Serif Text", serif;
+  background: url(assets/pics/bg1.jpg) center/cover no-repeat fixed;
+  background-color: #f0f0f0;
+}
+
+/* main takes all available space between header and footer */
+main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;  /* vertical center */
+  align-items: center;      /* horizontal center */
+  padding: 20px;
+}
+
+/* Header nav */
 header nav {
   display: flex;
-  flex-flow: row nowrap;
+  justify-content: space-between;
   align-items: center;
-  justify-content: center;      
   background-color: #535e3f; 
   padding: 0.3% 8%;
 }
 
-header nav h1, 
+header nav h1,
 header nav a {
   color: white;
   text-align: center;
+  text-shadow: 2px 2px 5px #232b14;
   background: none;
-  text-shadow: 2px 2px 5px #232b14;         
 }
 
 header nav h1 {
   font-size: clamp(1.5rem, 3vw, 2.5rem);
-  font-family: DM_Serif_Text ;
 }
 
 header nav a {
@@ -35,39 +59,19 @@ header nav a {
 
 header nav a:hover {
   background-color: #232b14;
-  border-radius: 5px;  
 }
 
-/*~~~~~~~~~~~~~~~~~~~~~~~~~~ Body styles ~~~~~~~~~~~~~~~~~~~~~~~~~~*/
-
-body {
-  background-image: url(assets/pics/bg1.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: center;
-
-  margin: 0;              
-  height: 100vh;         
-  background-color: #f0f0f0; 
+/* Footer at the bottom naturally (sticky footer) */
+.footer {
+  background-color: red;
+  color: white;
+  text-align: center;
+  padding: 1em;
 }
 
-body, header {
-  margin: 0;
-  padding: 0;
-}
-
-/*~~~~~~~~~~~~~~~~~~~~~~~~~~ Header styles ~~~~~~~~~~~~~~~~~~~~~~~~~~*/
-
-footer h1{
-
-}
-
-/*~~~~~~~~~~~~~~~~~~~~~~~~~~ Specific styles ~~~~~~~~~~~~~~~~~~~~~~~~~~*/
-
+/* Centered content */
 .centered {
-  font-size: clamp(2rem, 3vw, 5rem);
-  line-height: 0.5;
+  line-height: 1.2;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -78,21 +82,7 @@ footer h1{
 }
 
 .prevent-select {
+  user-select: none;
   -webkit-user-select: none; 
   -ms-user-select: none; 
-  user-select: none; 
-}
-
-/*~~~~~~~~~~~~~~~~~~~~~~~~~~ Font styles ~~~~~~~~~~~~~~~~~~~~~~~~~~*/
-
-.dm-serif-text-regular {
-  font-family: "DM Serif Text", serif;
-  font-weight: 400;
-  font-style: normal;
-}
-
-.dm-serif-text-regular-italic {
-  font-family: "DM Serif Text", serif;
-  font-weight: 400;
-  font-style: italic;
 }
