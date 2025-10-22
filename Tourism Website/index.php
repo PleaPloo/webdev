@@ -29,7 +29,7 @@
     </div>
 
     <div class="centered">
-      <button onclick="location.href='Attractions.php'">Explore Now</button>
+      <button onclick="location.href='About.php'">Explore Now</button>
     </div>
 
   </main>

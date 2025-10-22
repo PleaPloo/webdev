@@ -21,25 +21,31 @@
 
     <main>
       
-      <section class="features">
+      <section class="features-section">
 
-      <div class="feature-item" style="background-color: #5c6e3fff;">
+      <h1>Brunei’s Food</h1>
+      
+      <div class="features">
+
+      <div class="feature-item" style="background-color: #ec6425ff;">
         <img src="assets/pics/placeholder.jpg" alt="Place 1">
-        <h3>Kampong Ayer</h3>
-        <p>Called the “Venice of the East,” this is a stilted settlement over the Brunei River, where people have lived for centuries.</p>
+        <h3>Ambuyat</h3>
+          <p>Brunei’s national dish, a sticky sago starch eaten with bamboo sticks and dipped into sour or spicy sauces.</p>
         </div>
 
-        <div class="feature-item" style="background-color: #778b57ff;">
-        <img src="assets/pics/placeholder.jpg" alt="Place 1">
-        <h3>Ulu Temburong National Park</h3>
-        <p>Known as the “green jewel” of Brunei, this untouched rainforest allows hikes, canopy walks, and longboat river rides.</p>
-        </div>
+        <div class="feature-item" style="background-color: #f58e35ff;">
+          <img src="assets/pics/placeholder.jpg" alt="Place 1">
+          <h3>Nasi Katok</h3>
+            <p>A simple but loved dish, white rice, fried chicken, and sambal (spicy sauce). It’s cheap, fast, and found everywhere.</p>
+          </div>
 
-        <div class="feature-item">
-        <img src="assets/pics/placeholder.jpg" alt="Place 1">
-        <h3>Omar Ali Saifuddien Mosque</h3>
-        <p>This mosque is a national icon in Bandar Seri Begawan, with a golden dome and Italian marble, built in 1958. </p>
-        </div>
+        <div class="feature-item" style="background-color: rgba(255, 184, 121, 1);">
+          <img src="assets/pics/placeholder.jpg" alt="Place 1">
+          <h3>Kuih Melayu (Malay Cakes)</h3>
+            <p>Colorful steamed desserts like Kuih Talam, Kuih Lapis, and Seri Muka made from rice flour and coconut milk.</p>
+          </div>
+
+      </div>
 
     </main>
 

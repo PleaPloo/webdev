@@ -11,6 +11,30 @@
     <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&display=swap" rel="stylesheet">
 
     <title>Discover Brunei</title>
+
+    <style>
+
+      .m-section {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+      }
+
+      .m-image {
+        width: 30%;
+        max-height: fit-content;
+        overflow: hidden;
+        padding-left: 15rem;
+      }
+
+      .m-image img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        display: block;
+      }
+
+    </style>
   </head>
 
   <body>
@@ -20,11 +44,20 @@
     </header>
 
     <main>
+    
+      <section class="features-section">
 
-      <section>
-        <div>
-          <h2></h2>
-        </div>
+        <h1>About Discover Brunei</h1>
+      
+          <div class="m-image">
+            <img src="assets/pics/placeholder.jpg" alt="Place 1">
+          </div>
+
+          <di>
+
+          </di>
+          
+      </section>
 
     </main>
 

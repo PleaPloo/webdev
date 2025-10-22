@@ -18,9 +18,28 @@
     <header>
       <?php include 'nav.php'; ?>
     </header>
+    
+    <div class="centered prevent-select" style="font-size: clamp(1rem, 2vw, 3rem);">
+      <h1>Share Your Experience</h1>
+    </div>
 
     <main>
       
+      <form action="/action_page.php" method="POST">
+        
+        <label for="uname">Name:</label><br>
+        <input type="text" id="uname" name="uname" value=""><br>
+
+        <label for="email">Email:</label><br>
+        <input type="text" id="email" name="email" value=""><br>
+
+        <label for="comment">Comment:</label><br>
+        <input type="text" id="comment" name="comment" value=""><br><br>
+
+         <input type="submit" value="Submit">
+
+      </form>
+
     </main>
 
   </body>
