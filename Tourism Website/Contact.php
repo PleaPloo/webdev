@@ -25,7 +25,7 @@
 
     <main>
       
-      <form action="/action_page.php" method="POST">
+      <form action="comment_page.php" method="POST">
         
         <label for="uname">Name:</label><br>
         <input type="text" id="uname" name="uname" value=""><br>

@@ -14,7 +14,7 @@ body {
 /* Header css class tags ----------------------------------------------------------------------------------------------------*/
 
 header {
-  background-image: linear-gradient(180deg, #515e3a, #6b7853);;
+  background-image: linear-gradient(180deg, #515e3a, #6b7853);
   padding: 0.5% 8%;
   box-shadow: 0 4px 8px rgba(0,0,0,0.4);
 }
