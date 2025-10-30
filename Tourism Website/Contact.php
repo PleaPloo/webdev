@@ -11,6 +11,51 @@
     <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&display=swap" rel="stylesheet">
 
     <title>Discover Brunei</title>
+
+    <style>
+
+      h2{
+        font-size: 2rem;
+        padding-left: 2rem;
+        text-shadow: 0px 3px 10px #000000ff;
+        color: white;
+      }
+
+      h3{
+        font-size: 1.3rem; 
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        padding-left: 2rem;
+        padding-bottom: 1rem;
+        text-shadow: 0px 3px 10px #000000ff;
+        color: white;
+      }
+
+      .text-underline h2{
+        text-decoration: underline;
+        color: #ffffffff;
+      }
+
+      .social {
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+        flex-wrap: wrap;
+        padding-left: 2rem;
+      }
+
+      .social h3 {
+        margin: left;
+        padding: 0;
+        font-size: 1.3rem;
+      }
+
+      .social img {
+        width: 30px;
+        height: auto;
+      }
+
+    </style>
+
   </head>
 
   <body>
@@ -39,6 +84,32 @@
         <input type="submit" value="Submit">
 
       </form>
+
+      <section class="features-section">
+      
+      <h2>Contact us</h2>
+      <h3>We’re here to help you explore Brunei with ease.<br>
+      Whether you’re planning a visit, need a local tour guide, or want <br>
+      travel information, feel free to reach us through the details below.</h3>
+
+      <section class="text-underline">
+      <h2>Phone</h2>
+      <h3>+673 222 6111</h3>
+
+      <h2>Email</h2>
+      <h3>info@discoverbrunei.com</h3>
+
+      <h2>Social</h2>
+      
+      <div class="social">
+      <a href="https://www.facebook.com"><img src="assets/pics/facebook.png"></a>
+      <a href="https://www.instagram.com"><img src="assets/pics/instagram.png"></a>
+      <h3>@discoverbrunei</h3>
+      </div>
+      
+      <h2>Address</h2>
+      <h3>Jalan Sultan Omar ‘Ali Saifuddien, Bandar Seri Begawan, Brunei Darussalam</h3>
+      </section>
 
     </main>
 

@@ -56,6 +56,7 @@
       }
 
     </style>
+
   </head>
 
   <body>
@@ -65,13 +66,11 @@
     </header>
 
     <main>
-    
       <section class="features-section">
       
       <h1>About Discover Brunei</h1>
 
       <div class="m-container">
-      
         <div class="m-image">
           <img src="assets/pics/about.jpg" alt="hornbill">
         </div>
@@ -92,11 +91,9 @@
         </p>
 
         </div>
-
       </div>
 
       </section>
-
     </main>
 
       <div class="footer">
@@ -104,5 +101,4 @@
       </div>
 
   </body>
-
 </html>
