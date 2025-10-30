@@ -28,19 +28,19 @@
       <div class="features">
 
       <div class="feature-item" style="background-color: #ec6425ff;">
-        <img src="assets/pics/placeholder.jpg" alt="Place 1">
+        <img src="assets/pics/Ambuyat.jpg" alt="Place 1">
         <h3>Ambuyat</h3>
           <p>Brunei’s national dish, a sticky sago starch eaten with bamboo sticks and dipped into sour or spicy sauces.</p>
         </div>
 
         <div class="feature-item" style="background-color: #f58e35ff;">
-          <img src="assets/pics/placeholder.jpg" alt="Place 1">
+          <img src="assets/pics/Nasi Katok.jpg" alt="Place 1">
           <h3>Nasi Katok</h3>
             <p>A simple but loved dish, white rice, fried chicken, and sambal (spicy sauce). It’s cheap, fast, and found everywhere.</p>
           </div>
 
         <div class="feature-item" style="background-color: rgba(255, 184, 121, 1);">
-          <img src="assets/pics/placeholder.jpg" alt="Place 1">
+          <img src="assets/pics/Kuih Melayu.jpg" alt="Place 1">
           <h3>Kuih Melayu (Malay Cakes)</h3>
             <p>Colorful steamed desserts like Kuih Talam, Kuih Lapis, and Seri Muka made from rice flour and coconut milk.</p>
           </div>

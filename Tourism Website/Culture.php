@@ -28,7 +28,7 @@
     <div class="horizontal">
 
       <div class="horizontal-item" style="background-color: #3AAED8;">
-        <img src="assets/pics/placeholder.jpg" alt="Place 1">
+        <img src="assets/pics/Festival.jpg" alt="Place 1">
         <div class="text">
           <h3>Brunei Festivals</h3>
           <p>The Sultan of Brunei is deeply respected; royal events and ceremonies reflect the country’s rich traditions and unity.</p>
@@ -36,7 +36,7 @@
       </div>
 
       <div class="horizontal-item" style="background-color: #3080caff;">
-        <img src="assets/pics/placeholder.jpg" alt="Place 2">
+        <img src="assets/pics/Attire.jpg" alt="Place 2">
         <div class="text">
           <h3>Traditional Attire</h3>
           <p>Men wear the Baju Melayu with Songkok (cap), while women wear the Baju Kurung, both are modest and elegant traditional clothing.</p>
@@ -44,7 +44,7 @@
       </div>
 
       <div class="horizontal-item" style="background-color: #234da8ff;">
-        <img src="assets/pics/placeholder.jpg" alt="Place 3">
+        <img src="assets/pics/mib.jpg" alt="Place 3">
         <div class="text">
           <h3>Malay Islamic Monarchy (MIB)</h3>
           <p>Brunei’s national philosophy, it combines Malay culture, Islamic values, and the monarchy’s leadership in daily life and governance.</p>

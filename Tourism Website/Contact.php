@@ -28,15 +28,15 @@
       <form action="comment_page.php" method="POST">
         
         <label for="uname">Name:</label><br>
-        <input type="text" id="uname" name="uname" value=""><br>
+        <input type="text" id="uname" name="uname" placeholder=""><br>
 
         <label for="email">Email:</label><br>
         <input type="text" id="email" name="email" value=""><br>
 
         <label for="comment">Comment:</label><br>
-        <input type="text" id="comment" name="comment" value=""><br><br>
+        <textarea type="text" id="comment" name="comment" value=""></textarea><br><br>
 
-         <input type="submit" value="Submit">
+        <input type="submit" value="Submit">
 
       </form>
 

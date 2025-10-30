@@ -1,15 +1,27 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>comments</title>
-</head>
+<?php
+$db_server = "localhost";
+$db_user = "root";
+$db_pass = "";
+$db_name = "tourismdb";
 
-<body>
-    <?php echo $_POST["uname"]; ?><br>
-    <?php echo $_POST["email"]; ?><br>
-    <?php echo $_POST["comment"]; ?><br>
-</body>
+$conn = mysqli_connect($db_server, $db_user, $db_pass, $db_name);
 
-</html>
+if (!$conn) {
+    die("Connection failed: " . mysqli_connect_error());
+}
+
+$uname = $_POST['uname'];
+$email = $_POST['email'];
+$comment = $_POST['comment'];
+
+$sql = "INSERT INTO comments (uname, email, comment) VALUES ('$uname', '$email', '$comment')";
+
+if (mysqli_query($conn, $sql)) {
+    header("Location: Contact.php");
+    exit();
+} else {
+    echo "Error: " . $sql . "<br>" . mysqli_error($conn);
+}
+
+mysqli_close($conn);
+?>

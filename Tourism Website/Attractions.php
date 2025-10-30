@@ -28,19 +28,19 @@
       <div class="features">
 
       <div class="feature-item" style="background-color: #f0cd43ff;">
-        <img src="assets/pics/placeholder.jpg" alt="Place 1">
+        <img src="assets/pics/kg_ayer.jpg" alt="Place 1">
           <h3>Kampong Ayer</h3>
           <p>Called the “Venice of the East,” this is a stilted settlement over the Brunei River, where people have lived for centuries.</p>
         </div>
 
         <div class="feature-item" style="background-color: #db9a39ff;">
-          <img src="assets/pics/placeholder.jpg" alt="Place 1">
+          <img src="assets/pics/ulutemburong.jpg" alt="Place 1">
           <h3>Ulu Temburong National Park</h3>
           <p>Known as the “green jewel” of Brunei, this untouched rainforest allows hikes, canopy walks, and longboat river rides.</p>
         </div>
 
         <div class="feature-item" style="background-color: #ca7129ff;">
-          <img src="assets/pics/placeholder.jpg" alt="Place 1">
+          <img src="assets/pics/mosque.jpg" alt="Place 1">
           <h3>Omar Ali Saifuddien Mosque</h3>
           <p>This mosque is a national icon in Bandar Seri Begawan, with a golden dome and Italian marble, built in 1958. </p>
         </div>

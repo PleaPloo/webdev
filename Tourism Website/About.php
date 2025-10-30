@@ -73,7 +73,7 @@
       <div class="m-container">
       
         <div class="m-image">
-          <img src="assets/pics/placeholder.jpg" alt="Place 1">
+          <img src="assets/pics/about.jpg" alt="hornbill">
         </div>
 
         <div class="m-text"><p>Welcome to Discover Brunei,  your  travel companion to the “Abode of Peace.”
