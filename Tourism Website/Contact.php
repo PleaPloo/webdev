@@ -70,7 +70,7 @@
 
     <main>
       
-      <form action="comment_page.php" method="POST">
+      <form action="comment_page.php" method="POST" onsubmit="return validateForm()">
         
         <label for="uname">Name:</label><br>
         <input type="text" id="uname" name="uname" placeholder=""><br>
@@ -84,6 +84,34 @@
         <input type="submit" value="Submit">
 
       </form>
+
+      <script>
+        function validateForm() {
+          const email = document.getElementById("email").value.trim();
+          const name = document.getElementById("uname").value.trim();
+          const comment = document.getElementById("comment").value.trim();
+
+          // Email validation
+          const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+
+          if (name === "") {
+            alert("Please enter your name.");
+            return false;
+          }
+
+          if (!emailPattern.test(email)) {
+            alert("Please enter a valid email address.");
+            return false;
+          }
+
+          if (comment === "") {
+            alert("Please enter your comment.");
+            return false;
+          }
+
+          return true;
+        }
+      </script>
 
       <section class="features-section">
       
